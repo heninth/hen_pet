@@ -1,0 +1,104 @@
+﻿<?xml version="1.0" encoding="ISO-8859-1"?>
+<root>
+	<item id="Title"><![CDATA[Discuz! Plugin]]></item>
+	<item id="Version"><![CDATA[X2]]></item>
+	<item id="From"><![CDATA[hen & new (http://hen.in.th)]]></item>
+	<item id="Data">
+		<item id="plugin">
+			<item id="available"><![CDATA[1]]></item>
+			<item id="adminid"><![CDATA[1]]></item>
+			<item id="name"><![CDATA[Pet By hen and new]]></item>
+			<item id="identifier"><![CDATA[hen_pet]]></item>
+			<item id="description"><![CDATA[]]></item>
+			<item id="datatables"><![CDATA[]]></item>
+			<item id="directory"><![CDATA[hen_pet/]]></item>
+			<item id="copyright"><![CDATA[hen and new]]></item>
+			<item id="version"><![CDATA[1.0]]></item>
+			<item id="__modules">
+				<item id="0">
+					<item id="name"><![CDATA[pet]]></item>
+					<item id="menu"><![CDATA[]]></item>
+					<item id="url"><![CDATA[]]></item>
+					<item id="type"><![CDATA[11]]></item>
+					<item id="adminid"><![CDATA[0]]></item>
+					<item id="displayorder"><![CDATA[0]]></item>
+				</item>
+				<item id="1">
+					<item id="name"><![CDATA[petshop]]></item>
+					<item id="menu"><![CDATA[Pet Shop]]></item>
+					<item id="url"><![CDATA[]]></item>
+					<item id="type"><![CDATA[1]]></item>
+					<item id="adminid"><![CDATA[0]]></item>
+					<item id="displayorder"><![CDATA[0]]></item>
+					<item id="navtitle"><![CDATA[]]></item>
+					<item id="navicon"><![CDATA[]]></item>
+					<item id="navsubname"><![CDATA[]]></item>
+					<item id="navsuburl"><![CDATA[]]></item>
+				</item>
+			</item>
+		</item>
+		<item id="version"><![CDATA[X2]]></item>
+		<item id="license"><![CDATA[ผลงานนี้ ใช้สัญญาอนุญาตของครีเอทีฟคอมมอนส์แบบ แสดงที่มา-ไม่ใช้เพื่อการค้า-อนุญาตแบบเดียวกัน 3.0 ต้นฉบับ.
+		
+สามารถศึกษาเงื่อนไข และรายละเอียดเพื่มเติมได้ที่ : http://creativecommons.org/licenses/by-nc-sa/3.0/deed.th]]></item>
+		<item id="installfile"><![CDATA[install.php]]></item>
+		<item id="uninstallfile"><![CDATA[uninstall.php]]></item>
+		<item id="var">
+			<item id="0">
+				<item id="displayorder"><![CDATA[0]]></item>
+				<item id="title"><![CDATA[เปิดการทำงานของปลั๊กอิน]]></item>
+				<item id="description"><![CDATA[]]></item>
+				<item id="variable"><![CDATA[open]]></item>
+				<item id="type"><![CDATA[select]]></item>
+				<item id="value"><![CDATA[1]]></item>
+				<item id="extra"><![CDATA[1 = เปิด
+2 = ปิด]]></item>
+			</item>
+			<item id="1">
+				<item id="displayorder"><![CDATA[1]]></item>
+				<item id="title"><![CDATA[UID ผู้ดูแล Pet Shop]]></item>
+				<item id="description"><![CDATA[ถ้ามีมากกว่า 1 คน ให้ใช้ , คั่น เช่น 1,2,10,123]]></item>
+				<item id="variable"><![CDATA[admin]]></item>
+				<item id="type"><![CDATA[text]]></item>
+				<item id="value"><![CDATA[1]]></item>
+				<item id="extra"><![CDATA[]]></item>
+			</item>
+			<item id="2">
+				<item id="displayorder"><![CDATA[3]]></item>
+				<item id="title"><![CDATA[หน่วยเงินที่ใช้ซื้อขาย Pet]]></item>
+				<item id="description"><![CDATA[]]></item>
+				<item id="variable"><![CDATA[money]]></item>
+				<item id="type"><![CDATA[extcredit]]></item>
+				<item id="value"><![CDATA[2]]></item>
+				<item id="extra"><![CDATA[]]></item>
+			</item>
+			<item id="3">
+				<item id="displayorder"><![CDATA[4]]></item>
+				<item id="title"><![CDATA[ความกว้างของ Pet Shop]]></item>
+				<item id="description"><![CDATA[มีหน่วยเป็นพิกเซล แต่กรอกเพียงตัวเลข]]></item>
+				<item id="variable"><![CDATA[width]]></item>
+				<item id="type"><![CDATA[text]]></item>
+				<item id="value"><![CDATA[720]]></item>
+				<item id="extra"><![CDATA[]]></item>
+			</item>
+			<item id="4">
+				<item id="displayorder"><![CDATA[5]]></item>
+				<item id="title"><![CDATA[จำนวนคอลั่มของ Pet Shop]]></item>
+				<item id="description"><![CDATA[]]></item>
+				<item id="variable"><![CDATA[colum]]></item>
+				<item id="type"><![CDATA[text]]></item>
+				<item id="value"><![CDATA[3]]></item>
+				<item id="extra"><![CDATA[]]></item>
+			</item>
+			<item id="5">
+				<item id="displayorder"><![CDATA[4]]></item>
+				<item id="title"><![CDATA[รูปแสดง Limited Edition]]></item>
+				<item id="description"><![CDATA[ใส่เป็น Direct Link]]></item>
+				<item id="variable"><![CDATA[limitedurl]]></item>
+				<item id="type"><![CDATA[text]]></item>
+				<item id="value"><![CDATA[source/plugin/hen_pet/images/limited-edition.png]]></item>
+				<item id="extra"><![CDATA[]]></item>
+			</item>
+		</item>
+	</item>
+</root>
